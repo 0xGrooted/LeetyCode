@@ -1,5 +1,5 @@
 # LeetCode
-Daily Practice until I am recognised :)
+Daily Practice + Notes
 Easy > Medium > Hard
 
 My Solutions will be added here.
