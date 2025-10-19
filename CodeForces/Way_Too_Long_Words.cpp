@@ -2,13 +2,18 @@
 #include <string>
 using namespace std;
 
-int main(){
-    string word = "";
-    cin >> word;
+int main() {
+    int n;
+    cin >> n;
+    while (n--) {
+        string word;
+        cin >> word;
 
-    if(word.length() > 10){
-        word = word[0] + to_string(word.length()-2) + word[word.length() - 1];
+        if (word.length() > 10) {
+            cout << word[0] << word.length() - 2 << word.back() << endl;
+        } else {
+            cout << word << endl;
+        }
     }
-    cout << word << endl;
     return 0;
 }
